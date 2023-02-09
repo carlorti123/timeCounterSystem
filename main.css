@@ -1,0 +1,131 @@
+.grid {
+    display: grid;
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+}
+.scoreboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 700px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.9;
+    background: linear-gradient(rgb(17, 17, 17), skyblue) ;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+
+.score__countA {
+    
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.score__countD {
+    
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+}
+.taskId {
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 0.70em;
+}
+
+.scoreboard__name,
+.score__score {
+    
+
+    padding: 10px;
+    text-align: center;
+    color: #F4F6F7 ;
+    font-size: 2em;
+    
+}
+
+.scoreboard__name {
+    font-weight: bold;
+    border-bottom: 1px solid #E4EBEE  ;
+    color: whitesmoke;
+}
+#timerDisplay {
+    font-size: 2em;
+    color: rgb(94, 199, 94);
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard__control-button {
+    display: grid;
+    background-color: #ddd;
+    align-items: center;
+    width: 700px;
+    grid-template-columns: 30% 30% 20% 20%;
+    border-top: 4px solid greenyellow;
+    box-shadow: 30mm;
+    border-radius: 10px;
+}
+
+.control__button__Accept,
+.Accept {
+    
+    border: 10px;
+    box-shadow: 10mm;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border-bottom: 3px solid #ddd;
+
+}
+
+.control__button__Accept,
+.Accept {
+    
+    border: 10px;
+    box-shadow: 10mm;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border-bottom: 3px solid #ddd;
+    cursor: pointer;
+}
+
+.control__button__Discard,
+.Discard {
+    
+    border: 10px;
+    box-shadow: 10mm;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border-bottom: 3px solid #ddd;
+    cursor: pointer;
+}
+
+#Play {
+    
+    border: 10px;
+    box-shadow: 10mm;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border-bottom: 3px solid #ddd;
+}
+
+.control__button__Pause,
+.Pause {
+    
+    border: 10px;
+    box-shadow: 10mm;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border-bottom: 3px solid #ddd;
+    cursor: pointer;
+}
